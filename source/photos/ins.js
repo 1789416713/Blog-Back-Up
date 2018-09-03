@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://raw.githubusercontent.com/lb948174033/blog-back-up/master/min_photos/' + data.link[i];
-          var src = 'https://raw.githubusercontent.com/lb948174033/blog-back-up/master/photos/' + data.link[i];
+          var minSrc = 'https://raw.githubusercontent.com/1789416713/Blog-Back-Up/master/min_photos/' + data.link[i];
+          var src = 'https://raw.githubusercontent.com/1789416713/Blog-Back-Up/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
