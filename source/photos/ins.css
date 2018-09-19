@@ -33,6 +33,7 @@
 	text-align: center;
 	background: #ededed;
 	outline: 1px solid #ddd;
+	margin: 0;
 }
 .instagram .thumb a {
 	position: relative;
