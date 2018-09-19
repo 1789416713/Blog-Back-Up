@@ -168,7 +168,7 @@
 	top: 65%;
 	width: 11px;
 	height: 11px;
-	background: url(red.png) 0px 0px no-repeat;
+	background: url(images/red.png) 0px 0px no-repeat;
 }
 .track-list li .node-icon2 {
 	position: absolute;
@@ -176,7 +176,7 @@
 	top: 65%;
 	width: 11px;
 	height: 11px;
-	background: url(grigio.png) 0px 0px no-repeat;
+	background: url(images/grigio.png) 0px 0px no-repeat;
 }
 .track-list li.first .node-icon {
 	background-position: 0 -72px;
@@ -201,8 +201,76 @@
 .track-list li.first .txt {
 	max-width: 600px;
 }
+#wdzph {
+	margin-bottom: 0;
+}
+.production-item {
+    padding-bottom: 10px;
+    position: relative;
+    clear: both;
+    min-height: 170px;
+    padding: 10px 0;
+    border-bottom: 1px #ddd solid;
+    display: block;
+}
+.production-item-nobottom {
+    padding-bottom: 10px;
+    position: relative;
+    clear: both;
+    min-height: 170px;
+    padding: 10px 0;
+    display: block;
+}
+.production-picture a {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin-top: 24px;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+}
+.production-picture #bj1 {
+    background: url(images/gzx.jpg) no-repeat center;
+    background-size:cover;
+}
+.production-picture .bj2 {
+    background: url(images/jd.jpg) no-repeat center;
+    background-size:cover;
+}
+.production-picture .bj3 {
+    background: url(images/biaobai.jpg) no-repeat center;
+    background-size:cover;
+}
+.production-picture .bj4 {
+    background: url(images/qingjia.jpg) no-repeat center;
+    background-size:cover;
+}
+.production-info {
+    padding-left: 120px;
+    display: block;
+}
+.production-comments {
+    font-size: 13px;
+    display: block;
+	color:#999;
+}
+.production-title a {
+	font-size:18px;
+	color:#4d4d4d;
+	text-align:left;
+    display: block;
+    font-weight: 550;
+    margin-top: 22px;
+}
+
 
 @media screen and (max-width:600px) {
+    .production-item {
+        width: 100%;
+    }
 	.instagram .thumb {
 		width: 50%;
 		padding-bottom: 50%;

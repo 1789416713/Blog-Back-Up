@@ -4,10 +4,10 @@
 
 # Site
 title: Enterz
-subtitle: 
-description: 临渊羡鱼 不如退而结网
+subtitle: 个人主站
+description: ""
 keywords:
-author: Z
+author: Enterz
 language:
 timezone:
 
@@ -15,7 +15,8 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+  # :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -73,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: huno
+theme: hexo-theme-laughing
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +82,35 @@ deploy:
   type: git
   repo: git@git.coding.net:Silent_express/Blog.git
   brench: master
+
+# douban
+douban:
+    user: 138118106
+    builtin: true
+    book:
+      title: 'This is my book title'
+      quote: 'This is my book quote'
+    movie:
+      title: '关于我'
+      quote: '那些曾经看过以为念念不忘的动漫就在我们念念不忘的过程里，被我们遗忘了。--记看过的动漫'
+    game:
+      title: 'This is my game title'
+      quote: 'This is my game quote'
+    timeout: 30000 #optional
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-tororo
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true

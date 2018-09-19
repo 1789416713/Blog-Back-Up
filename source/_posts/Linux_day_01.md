@@ -1,7 +1,16 @@
 
 ---
 title: Linux day 01
+<!-- tags: 
+  - Linux -->
+categories:
+  - Linux
+abbrlink: 43567
 ---
+
+
+记录 Linux 日常学习
+<!-- more --> 
 
 ## 根目录下的常见目录
 

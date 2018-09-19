@@ -1,6 +1,14 @@
 ---
 title: Linux day 02
+<!-- tags: 
+  - Linux -->
+categories:
+  - Linux
+abbrlink: 1
 ---
+
+记录 Linux 日常学习
+<!-- more --> 
 
 ## sed
 

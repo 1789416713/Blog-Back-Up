@@ -1,7 +1,14 @@
 ---
 title: Linux day 03
+<!-- tags: 
+  - Linux -->
+categories:
+  - Linux
+abbrlink: 2
 ---
 
+记录 Linux 日常学习
+<!-- more --> 
 
 ## linux 目录的特点
 

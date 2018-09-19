@@ -1,7 +1,14 @@
 ---
 title: Linux day 04
+<!-- tags: 
+  - Linux -->
+categories:
+  - Linux
+abbrlink: 3
 ---
 
+记录 Linux 日常学习
+<!-- more --> 
 
 ## Linux 文件权限
 
