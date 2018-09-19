@@ -34,6 +34,7 @@ def list_img_file(directory):
         if fileformat.lower() == "jpg" or fileformat.lower() == "png" or fileformat.lower() == "gif":
             new_list.append(filename)
     # print new_list
+    new_list.sort() #mac下读取文件不能按照文件名读取，需要重新排序
     return new_list
 
 
