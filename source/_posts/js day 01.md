@@ -7,8 +7,7 @@ categories:
 abbrlink: 11
 ---
 
-![](http://wx1.sinaimg.cn/large/005Jjo4tly1fvcqaqleywj30ht04vmxc.jpg)
-<!-- ![](http://wx2.sinaimg.cn/large/005Jjo4tly1fvcqjkrveoj30dc06omx7.jpg) -->
+![](http://pfc7tzuqu.bkt.clouddn.com/js1.png)
 
 函数是由事件驱动的或者当它被调用时执行的可重复使用的代码块。
 
